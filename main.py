@@ -1,9 +1,9 @@
 # main.py
 import telebot
 import os
-from CitiesGame import CitiesGame
-from llm_city import get_city_description
-from voice_processing import voice_to_text, text_to_voice
+from bot.CitiesGame import CitiesGame
+from bot.llm_city import get_city_description
+from bot.voice_processing import voice_to_text, text_to_voice
 
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
