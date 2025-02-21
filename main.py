@@ -1,4 +1,3 @@
-# main.py
 import telebot
 import os
 from bot.CitiesGame import CitiesGame

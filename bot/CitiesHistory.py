@@ -1,4 +1,3 @@
-# CitiesHistory.py
 class CitiesHistory:
     def __init__(self):
         self.city_list = []

@@ -1,6 +1,4 @@
-# llm_city.py
 import os
-
 from gigachat import GigaChat
 
 KEY = os.getenv('GIGA_KEY')

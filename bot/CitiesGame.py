@@ -1,4 +1,3 @@
-# CitiesGame
 from CitiesHistory import CitiesHistory
 from llm_city import is_valid_city_name, get_city_name
 

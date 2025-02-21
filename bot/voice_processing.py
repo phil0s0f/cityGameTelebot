@@ -1,4 +1,3 @@
-# voice_processing
 import speech_recognition as sr
 import soundfile as sf
 from gtts import gTTS
@@ -38,4 +37,3 @@ def text_to_voice(message_id, text):
     tts.save(output_voice_file)
 
     return output_voice_file
-
